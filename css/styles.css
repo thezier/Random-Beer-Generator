@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, rgb(254, 188, 88), rgb(199, 138, 46));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Lato', Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.beer-container {
+  max-width: 450px;
+}
+
+#beer-image {
+  max-height: 200px;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 30px auto 10px auto;
+  letter-spacing: 1px;
+}
+
+h5 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 5px auto 10px auto;
+  font-weight: 100;
+}
+
+#description {
+  margin: 20px auto 30px auto;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  font-weight: 200;
+}
+
+#beer-button {
+  background-color: #5f8d5a;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 20px 30px;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  transition: all 0.2s;
+}
+
+#beer-button:hover {
+  background-color: #5c7e59;
+}
+
+#beer-button:active {
+  background-color: #4a6647;
+  color: rgb(224, 223, 223);
+}
